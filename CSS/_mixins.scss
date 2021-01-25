@@ -1,0 +1,16 @@
+@mixin size-btn($w, $h, $bg, $br, $bs) {
+    width: $w;
+    height: $h;
+    background-color: $bg;
+    border-radius: $br;
+    border-style: $bs;
+    &:hover {
+        background: white;
+        transition: all 0.2s ease;
+        text-decoration: none;
+        color: white;
+        border: 2px solid darken($bg,100%);
+      }
+ }
+ 
+ 
